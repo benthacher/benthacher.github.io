@@ -1,0 +1,79 @@
+*=important/big
+
+[js]
+8bal
+*class-parser
+draw
+*endoeffecter/endofactor
+*Engine
+evolut
+fluid?? check it out
+fourier
+fractals
+fractals-webgl
+gbemulator
+life
+lightsaber-audio
+*logic gate designer
+minesweeper
+noise??
+*physic
+*Physics Engine
+pid
+*pokotmin
+sheet??
+shoot me?
+*tanque2
+tetris (if it works)
+
+[other]
+crudecam
+
+[3d-printing]
+rayquaza
+the knight/hornet
+
+[c]
+mips-assembler
+
+[embedded]
+desk-leds
+*nunchuk-adapter
+*lightsaber
+
+[kicad]
+pick
+
+[python]
+*the whole curses cdom framework
+curses_bluetooth
+curses_pactl
+curses_serial
+nubanner-api
+
+[rover]
+*RoverCAN (cpp side)
+*custom pcbs
+
+[scripts]
+kicad-add-lib
+pics-to-pdf
+*wallpaper
+
+[TI]
+*minesweeper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
