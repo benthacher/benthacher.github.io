@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Ben Thacher portfolio
 # twitter_username: username
 github_username: benthacher
-minimal_mistakes_skin: dirt
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -58,24 +58,17 @@ plugins:
 author:
   name   : "Ben Thacher"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Electrical and Computer Engineering student and hobbyist"
+  bio    : "Electrical and Computer Engineering Enthusiast and Hobbyist"
+  location: "Boston, MA"
   links:
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    - label: "Github"
+      icon: "fas fa-fw fa-github"
       url: "https://github.com/benthacher"
+
 
 # LaTeX math script just because it looks hawt
 head_scripts:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/benthacher"
 
 defaults:
   # _pages
