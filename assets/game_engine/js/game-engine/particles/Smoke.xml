@@ -1,0 +1,63 @@
+<descriptor>
+	<property key="name" type="string">Smoke</property>
+
+	<property key="pos_dist" type="Vector">0, 0</property>
+	
+	<property key="vel"      type="Vector">0, 1</property>
+	<property key="vel_dist" type="Vector">2, 2</property>
+
+	<property key="acc"      type="Vector">0, 10</property>
+	<property key="acc_dist" type="Vector">0, 0</property>
+
+	<property key="angle"      type="float">0</property>
+	<property key="angle_dist" type="float">6.28</property>
+
+	<property key="angVel"      type="float">0</property>
+	<property key="angVel_dist" type="float">10</property>
+
+	<property key="angAcc"      type="float">0</property>
+	<property key="angAcc_dist" type="float">1</property>
+	
+	<property key="mass"      type="float">0.001</property>
+	<property key="mass_dist" type="float">0</property>
+
+	<property key="elasticity"      type="float">0.7</property>
+	<property key="elasticity_dist" type="float">0.2</property>
+	<!-- Color -->
+	<property key="r"      type="float">1.0</property>
+	<property key="r_dist" type="float">0.0</property>
+
+	<property key="g"      type="float">1.0</property>
+	<property key="g_dist" type="float">0.0</property>
+
+	<property key="b"      type="float">1.0</property>
+	<property key="b_dist" type="float">0.0</property>
+
+	<property key="a"      type="FloatArray">0, 0, 0, 0.04, 0.0</property>
+	<property key="a_dist" type="FloatArray">0, 0, 0, 0.01, 0.0</property>
+	
+	<property key="lifetime"      type="float">0.4</property>
+	<property key="lifetime_dist" type="float">0.1</property>
+
+	<property key="hitbox"      type="Hitbox">
+		<points>
+			1.0, 1.0
+			-1.0, 1.0
+			-1.0, -1.0
+			1.0, -1.0
+		</points>
+		<type>POLY</type>
+	</property>
+	<property key="hitbox_dist" type="VectorArray">
+		0, 0
+		0, 0
+		0, 0
+		0, 0
+	</property>
+
+	<property key="hitboxSize"      type="float">0.1</property>
+	<property key="hitboxSize_dist" type="float">0.01</property>
+
+	<property key="hitboxScale"      type="float">1.001</property>
+	<property key="hitboxScale_dist" type="float">0.0</property>
+</descriptor>
