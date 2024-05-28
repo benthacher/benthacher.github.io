@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="classes/Vector.js"></script>
+        <script src="cutscenes.js"></script>
+        <script src="utils.js"></script>
+        <script src="graphics.js"></script>
+        <script src="events.js"></script>
+        <script src="sounds.js"></script>
+        <script src="classes/Cutscene.js"></script>
+        <script src="classes/Barrier.js"></script>
+        <script src="classes/Tank.js"></script>
+        <script src="classes/PlayerTank.js"></script>
+        <script src="classes/Motorcycle.js"></script>
+        <script src="classes/Bullet.js"></script>
+        <script src="classes/Particle.js"></script>
+        <script src="classes/FallingParticle.js"></script>
+        <script src="classes/Score.js"></script>
+        <script src="index.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="hud">
+            <div id="minimap-container">
+                <canvas id="minimap"></canvas>
+            </div>
+        </div>
+        <div id="cinema-bar-top"></div>
+        <div id="cinema-bar-bottom"><p id="cutscene-line"></p></div>
+        <div id="main-menu-container">
+            <div id="main-menu">
+                <img id="title-logo" src="img/title_logo.svg"><br>
+                <input type="button" id="play" value="Play">
+                <input type="button" id="settings" value="Settings">
+            </div>
+        </div>
+        <div id="you-died-wrapper">
+            <div id="you-died">
+                <hr>
+                <h1 id="message">You Died.</h1>
+                <hr>
+            </div>
+            <div id="blur-panel"></div>
+        </div>
+        <pre id="log"></pre>
+        <div id="backImg"></div>
+        <canvas id="main"></canvas>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-filters">
+            <defs>
+                <filter id="filter">
+                    <feTurbulence type="fractalNoise" baseFrequency="0 0" numOctaves="1" result="warp"></feTurbulence>
+                    <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="50" in="SourceGraphic" in2="warpOffset" />
+                </filter>
+            </defs>
+        </svg>
+    </body>
+</html>
