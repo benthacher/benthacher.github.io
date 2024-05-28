@@ -1,7 +1,9 @@
 ---
 title: "Apartment Aeroponics"
 tags:
-  - JS
+  - C
+  - KiCAD
+  - Embedded
 header:
   teaser: /assets/images/aeroponics/control-board.png
 ---

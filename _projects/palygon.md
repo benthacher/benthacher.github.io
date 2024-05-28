@@ -2,6 +2,8 @@
 title: "Palygon"
 tags:
   - C
+  - KiCAD
+  - Embedded
 header:
   teaser: /assets/images/palygon/breakout.png
 ---
