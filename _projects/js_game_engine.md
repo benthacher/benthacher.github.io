@@ -12,7 +12,7 @@ The JS Game Engine was a project I started in high school as I started making si
 
 <canvas tabindex="1"></canvas>
 
-Collision handling was used later as a starting point for [Palygon's](/palygon) collision resolution.
+Collision handling was used later as a starting point for [Palygon's](/projects/palygon) collision resolution.
 
 <!-- start game loop -->
 <script type="module" src="{{ site.baseurl }}/assets/game_engine/js/index.js"></script>
